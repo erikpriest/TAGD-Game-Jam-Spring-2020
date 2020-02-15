@@ -1,0 +1,102 @@
+{
+    "name": "Input Actions",
+    "maps": [
+        {
+            "name": "WASD",
+            "id": "3e2460a6-faca-4c05-8d70-c96b35ba0bf8",
+            "actions": [
+                {
+                    "name": "W Key",
+                    "type": "Button",
+                    "id": "6064a4c9-0c3b-4d5c-98a7-0423070a00e9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "S Key",
+                    "type": "Button",
+                    "id": "949c38ec-add1-4632-95aa-1c56208df8f2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "D Key",
+                    "type": "Button",
+                    "id": "edebea56-7ded-4df8-b139-ada29dfd414f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "A Key",
+                    "type": "Button",
+                    "id": "48495faa-525b-414a-bc68-6447e87ce0db",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Tap"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7e624c12-a5df-45ea-9fac-96a6fc3ff2c4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "W Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "459a49f4-6ac6-4279-8a81-e865a6ad95e7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "S Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8361ac09-521f-469e-b5f3-a0683e592165",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "D Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf97ad28-379a-4691-8a75-d681ebc1e446",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "A Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
