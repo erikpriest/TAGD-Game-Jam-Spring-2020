@@ -75,7 +75,7 @@
                 {
                     "name": "Left Stick Xbox",
                     "id": "68f7c2b2-1663-4c7d-9019-bb732debba74",
-                    "path": "2DVector",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -84,30 +84,8 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
+                    "name": "Negative",
                     "id": "82698784-bffd-4f3a-9c04-81c550d7f258",
-                    "path": "<XInputController>/leftStick/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "9c2ab51d-5bbf-47df-b769-7b849f1c8258",
-                    "path": "<XInputController>/leftStick/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "10f8218b-3f67-42d3-90df-d865ba14d9ea",
                     "path": "<XInputController>/leftStick/left",
                     "interactions": "",
                     "processors": "",
@@ -117,8 +95,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
-                    "id": "50994007-00ad-45b4-b106-d3ca649b2bc6",
+                    "name": "Positive",
+                    "id": "9c2ab51d-5bbf-47df-b769-7b849f1c8258",
                     "path": "<XInputController>/leftStick/right",
                     "interactions": "",
                     "processors": "",
@@ -185,7 +163,7 @@
                 {
                     "name": "Left Stick PS4",
                     "id": "e52ac984-caa8-4dcb-9750-9828da4da54a",
-                    "path": "2DVector",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -194,30 +172,8 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
+                    "name": "Negative",
                     "id": "b150ad7a-90de-4f19-953d-147d17cad684",
-                    "path": "<DualShockGamepad>/leftStick/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "PS4 Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "e7e37a9d-dc4b-4615-92c9-bcccae7a0687",
-                    "path": "<DualShockGamepad>/leftStick/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "PS4 Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "fed8b321-18c5-4c86-ac4c-b7edd1b444f8",
                     "path": "<DualShockGamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
@@ -227,8 +183,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
-                    "id": "7338f7ec-e445-4b2c-af1d-0e79d25c1645",
+                    "name": "Positive",
+                    "id": "e7e37a9d-dc4b-4615-92c9-bcccae7a0687",
                     "path": "<DualShockGamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
@@ -240,7 +196,7 @@
                 {
                     "name": "D-Pad PS4",
                     "id": "f111b841-de0b-4ab4-88be-4a4eb5e357f8",
-                    "path": "2DVector",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -249,42 +205,20 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
+                    "name": "positive",
                     "id": "9d2b35cb-50f4-4f4c-afda-da4a68a86229",
-                    "path": "<DualShockGamepad>/dpad/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "PS4 Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "a68f7629-6e5d-46d3-a74c-b4b6b0c862cb",
-                    "path": "<DualShockGamepad>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "PS4 Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "a0ae8756-bf6f-4832-8710-a6fe722d9ecd",
-                    "path": "<DualShockGamepad>/dpad/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "PS4 Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "0218cbe9-f1d7-4cac-97d4-4ec3133fb448",
                     "path": "<DualShockGamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Controller",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "a68f7629-6e5d-46d3-a74c-b4b6b0c862cb",
+                    "path": "<DualShockGamepad>/dpad/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "PS4 Controller",
@@ -295,7 +229,7 @@
                 {
                     "name": "D-Pad Xbox",
                     "id": "d0d92997-43a1-49f5-9111-6e59557424f6",
-                    "path": "2DVector",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -304,30 +238,8 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
+                    "name": "Negative",
                     "id": "79f9f34d-d921-426a-8a4f-b3925b9a5262",
-                    "path": "<XInputController>/dpad/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "b0d5975f-0e10-4f18-a287-c1d570007ecd",
-                    "path": "<XInputController>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controller",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "e8053bb3-2c54-499a-b7d5-2e2bc0c77950",
                     "path": "<XInputController>/dpad/left",
                     "interactions": "",
                     "processors": "",
@@ -337,8 +249,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
-                    "id": "7975e403-4df0-490f-98de-ed11a7f0225e",
+                    "name": "Positive",
+                    "id": "b0d5975f-0e10-4f18-a287-c1d570007ecd",
                     "path": "<XInputController>/dpad/right",
                     "interactions": "",
                     "processors": "",
